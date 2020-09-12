@@ -156,7 +156,7 @@
 
       panels.forEach((panel) => panel.addEventListener("click", toggleOpen));
       panels.forEach((panel) =>
-        panel.addEventListener("transitioned", toggleActive)
+        panel.addEventListener("transitionend", toggleActive)
       );
     </script>
   </body>
